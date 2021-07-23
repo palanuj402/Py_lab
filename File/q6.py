@@ -1,0 +1,15 @@
+#factorial
+def fact(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n*fact(n-1)    
+
+
+
+
+num=int(input("Enter a num to find factorial: "))
+
+#calling factorail fumnction
+fac=fact(num)
+print("Factorail of ",num," is: ",fac)
